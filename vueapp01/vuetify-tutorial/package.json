@@ -1,8 +1,8 @@
 {
-  "name": "vueapp01",
+  "name": "rss-feed",
   "version": "1.0.0",
-  "description": "An rss feed viewer",
-  "author": "Joe Carre <www.joecarre.co.uk>",
+  "description": "An rss feed built with vue.",
+  "author": "Joe Carre <joe.carre@rfa.co.uk>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -12,7 +12,7 @@
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vuetify": "^1.1.1"
+    "vuetify": "^1.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
